@@ -1,0 +1,63 @@
+openapi: 3.0.3
+info:
+  title: JuaJobs API
+  description: RESTful API for connecting African gig workers and clients.
+  version: 1.0.0
+
+servers:
+  - url: https://api.juajobs.africa/v1
+
+paths:
+  /users:
+    post:
+      summary: Register new user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        '201':
+          description: User created
+
+  /users/{id}:
+    get:
+      summary: Retrieve user details
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: User data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          type: string
+        email:
+          type: string
+        passwordHash:
+          type: string
+        role:
+          type: string
+          enum: [worker, client, admin]
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
