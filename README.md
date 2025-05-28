@@ -21,7 +21,7 @@ Maintained clear structure and consistency across sections while ensuring the in
 Role focus: Access Control, Identity Management
 Defined access scopes for different roles, and ensured secure endpoint design, including proper handling of authentication, authorisation, and error responses.
 
-* User Experience Analyst: [Team Member Name]
+* User Experience Analyst: Ajang Chol Aguer DENG
 Role focus: API Usability, Developer Experience
 Contributed to filtering, localisation, and performance strategies, and ensured the API design was aligned with real-world use cases in the African market.
 
