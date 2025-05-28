@@ -2,7 +2,7 @@
 
 ## Team Information
 
-## Team Name: Group 4
+##  Group 4
 
 - **Roles:**
 * API Architect - Marvelous Nelson
