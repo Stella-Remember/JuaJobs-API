@@ -1,23 +1,41 @@
 # JuaJobs-API
-## API Design Learning Resources for JuaJobs Assignment
-## Foundational API Design Resources
-- **RESTful API Design**
-RESTful Web APIs by Sanjay Patni - Comprehensive reference on REST principles
-Hands-On RESTful API Design Patterns and Best Practices by Harihara
-Microsoft REST API Guidelines - Industry-standard best practices
-- **Resource Modeling**
-Beginning Relational Data Modeling by Martin Kleppmann - Chapters on data models and relationships
-REST API Resource Modeling - ThoughtWorks guide on resource design
-- **API Specification**
-OpenAPI Specification - Official documentation
-Swagger.io Learning Resources - Practical guidance on OpenAPI
-Stoplight API Design Guide - Comprehensive guide with examples
 
-# GitHub API Explorer
+## Team Information
 
-This is a simple exercise to explore the GitHub REST API using either:
-- JetBrains HTTP Client (`.http` files in PyCharm)
-- REST Client Extension in VS Code
+## Team Name: Group 4
+
+_ **Roles:**
+*API Architect - Marvelous Nelson
+Role focus: Systemic Structure, Governance, and Oversight
+Designed the overall API structure, resource models, and system logic while ensuring best practices for RESTful architecture, scalability, and future extensibility.'''
+
+*Endpoint Designer: Remember Stella Habiyambere
+Role focus: Routing, HTTP Method Design, and Resource Accessibility
+Crafted intuitive, RESTful endpoints for all resources, selected appropriate HTTP methods, and structured URL paths and query parameters
+
+*Documentation Specialist: Remember Stella Habiyambere
+Role focus: Clarity, Structure, and Developer Communication
+Maintained clear structure and consistency across sections while ensuring the inclusion of schemas, endpoint tables, status codes, and usage examples for developers.
+
+*Security Designer- Nadia Teta
+Role focus: Access Control, Identity Management
+Defined access scopes for different roles, and ensured secure endpoint design, including proper handling of authentication, authorisation, and error responses.
+
+*User Experience Analyst: [Team Member Name]
+Role focus: API Usability, Developer Experience
+Contributed to filtering, localisation, and performance strategies, and ensured the API design was aligned with real-world use cases in the African market.
+
+
+- **Executive Summary**
+This document presents the design of a RESTful API for JuaJobs, a gig economy platform connecting skilled African workers with clients. The API is crafted with scalability, security, localisation, and mobile-first performance in mind, addressing key African market needs such as mobile payments, multilingual support, and low-bandwidth connectivity.
+
+
+# RELEVANT LINKS
+*API design document
+*Entity-relationship diagrams 
+*Presentation slides
+
+
 
 ## 🔧 How to Use
 
@@ -36,64 +54,3 @@ To view private repos:
 - [GitHub REST API Docs](https://docs.github.com/en/rest)
 - [REST Client VS Code Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
-
-
-## Advanced API Design Topics
-- **Error Handling & Status Codes**
-HTTP Status Codes for RESTful Services - Complete reference
-Google API Design Guide: Errors - Best practices for error responses
-- **API Versioning & Evolution**
-API Versioning Methods - Analysis of different approaches
-Evolving your REST API - Guidance on managing API changes
-- **Security & Authorization**
-OAuth 2.0 Simplified - Complete guide to OAuth
-OWASP API Security Project - Security best practices
-Auth0 API Security Best Practices - Real-world implementation guidance
-Pagination, Filtering, and Sorting
-## GitHub API Documentation - Industry example of pagination
-JSON:API Filtering & Sorting - Standard approaches
-GraphQL-style Filtering in REST - Advanced filtering techniques
-## African Market Specific Resources
-- **Mobile Money Integration**
-GSMA Mobile Money API - Standard for mobile money APIs
-M-Pesa API Documentation - Leading mobile money platform
-- **Connectivity Challenges**
-Designing for Low Bandwidth Environments - UI/UX considerations that affect API design
-Offline-First Web Applications - Concepts applicable to API design
-- **Localization & Internationalization**
-REST API Internationalization - Best Practices
-IBM Globalization Guidelines - Enterprise approach to globalization
-## Tools & Visualization Resources
-- **API Design Tools**
-Stoplight Studio - Visual OpenAPI designer
-Postman API Design Tools - Design and prototyping
-Swagger Editor - Online OpenAPI editor
-- **Entity-Relationship Diagrams**
-LucidChart - Online diagramming tool
-draw.io - Free diagram creation
-- **Case Studies & Examples**
-Real-World API Examples
-GitHub REST API - Well-documented public API
-Stripe API Reference - Industry-leading payment API
-Twilio API - Communication platform API
-- **Gig Economy Platforms**
-Uber API Documentation - Transportation platform
-TaskRabbit API - Service marketplace
-- **African Tech Solutions**
-Flutterwave API Documentation - African payment gateway
-Jumia Developer Portal - Pan-African e-commerce platform
-  ## Video Tutorials & Courses
-- **API Design Courses**
-REST API Design, Development & Management (Udemy)
-API Design in Node.js (Frontend Masters)
-Designing RESTful APIs (LinkedIn Learning)
-  - **YouTube Playlists**
-Introduction to DRF - Vitor Freitas
-REST API Concepts and Examples - WebConcepts
-Building REST APIs with Node.js - Academind
-## Books
-- **Essential Books**
-Designing Great Web APIs
-Building an API Product Design, implement, release, and maintain API products that meet user needs
-Building Python Web APIs with FastAPI
-Django 5 by example
