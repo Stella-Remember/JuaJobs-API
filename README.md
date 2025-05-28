@@ -12,6 +12,32 @@ REST API Resource Modeling - ThoughtWorks guide on resource design
 OpenAPI Specification - Official documentation
 Swagger.io Learning Resources - Practical guidance on OpenAPI
 Stoplight API Design Guide - Comprehensive guide with examples
+
+# GitHub API Explorer
+
+This is a simple exercise to explore the GitHub REST API using either:
+- JetBrains HTTP Client (`.http` files in PyCharm)
+- REST Client Extension in VS Code
+
+## 🔧 How to Use
+
+1. Open the `github_api.http` file.
+2. Run each request (green play button in JetBrains or “Send Request” in VS Code).
+3. Observe the response status, headers, and body.
+
+## 🔐 Authentication (Optional)
+
+To view private repos:
+1. [Generate a GitHub token](https://github.com/settings/tokens)
+2. Replace `YOUR_TOKEN` in the request with your actual token.
+
+## 💡 Resources
+
+- [GitHub REST API Docs](https://docs.github.com/en/rest)
+- [REST Client VS Code Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+
+
+
 ## Advanced API Design Topics
 - **Error Handling & Status Codes**
 HTTP Status Codes for RESTful Services - Complete reference
