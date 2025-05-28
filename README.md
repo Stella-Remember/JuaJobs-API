@@ -31,11 +31,12 @@ This document presents the design of a RESTful API for JuaJobs, a gig economy pl
 
 
 # RELEVANT LINKS
-* API design document
-* Entity-relationship diagrams 
-* Presentation slides
+* API design document: https://docs.google.com/document/d/12B3fqOlkJyrhHia8XqWJejsLN8_BATv4IPB_A9I4flE/edit?usp=sharing
+* Entity-relationship diagrams: https://lucid.app/lucidchart/5bb40f55-dd54-427c-ba2f-3f73cca93c54/edit?viewport_loc=-1850%2C1026%2C3086%2C1429%2C0_0&invitationId=inv_de5472f7-c7fc-4a6e-9fdf-052b72d909ad
+* Market Adaptation: https://docs.google.com/document/d/10-iqixW25XYjIJbfQ0umNs7KwwfsIM4XN82qS600CIA/edit?usp=sharing
+* Presentation slides: https://docs.google.com/presentation/d/1zejy0Aj902jM4YTWzsOsDdFwOcpFrSU_FwtAB6pwiWI/edit?usp=sharing
 
-
+# Highlights of innovative approaches
 
 ## 🔧 How to Use
 
