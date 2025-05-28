@@ -4,24 +4,24 @@
 
 ## Team Name: Group 4
 
-_ **Roles:**
-*API Architect - Marvelous Nelson
+- **Roles:**
+* API Architect - Marvelous Nelson
 Role focus: Systemic Structure, Governance, and Oversight
 Designed the overall API structure, resource models, and system logic while ensuring best practices for RESTful architecture, scalability, and future extensibility.'''
 
-*Endpoint Designer: Remember Stella Habiyambere
+* Endpoint Designer: Remember Stella Habiyambere
 Role focus: Routing, HTTP Method Design, and Resource Accessibility
 Crafted intuitive, RESTful endpoints for all resources, selected appropriate HTTP methods, and structured URL paths and query parameters
 
-*Documentation Specialist: Remember Stella Habiyambere
+* Documentation Specialist: Remember Stella Habiyambere
 Role focus: Clarity, Structure, and Developer Communication
 Maintained clear structure and consistency across sections while ensuring the inclusion of schemas, endpoint tables, status codes, and usage examples for developers.
 
-*Security Designer- Nadia Teta
+* Security Designer- Nadia Teta
 Role focus: Access Control, Identity Management
 Defined access scopes for different roles, and ensured secure endpoint design, including proper handling of authentication, authorisation, and error responses.
 
-*User Experience Analyst: [Team Member Name]
+* User Experience Analyst: [Team Member Name]
 Role focus: API Usability, Developer Experience
 Contributed to filtering, localisation, and performance strategies, and ensured the API design was aligned with real-world use cases in the African market.
 
@@ -31,9 +31,9 @@ This document presents the design of a RESTful API for JuaJobs, a gig economy pl
 
 
 # RELEVANT LINKS
-*API design document
-*Entity-relationship diagrams 
-*Presentation slides
+* API design document
+* Entity-relationship diagrams 
+* Presentation slides
 
 
 
