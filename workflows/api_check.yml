@@ -1,0 +1,22 @@
+name: API File Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  check-api-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Check if HTTP request file exists
+        run: |
+          if [ -f github_api.http ]; then
+            echo "HTTP request file found."
+          else
+            echo "Error: github_api.http not found!" && exit 1
+          fi
